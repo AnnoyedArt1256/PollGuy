@@ -10,7 +10,16 @@ app.listen(3000, () => {
 })
 
 const Discord = require('discord.js');
-const client = new Discord.Client();
+const client = new Discord.Client({
+ presence: {
+  status: 'online',
+  activity: {
+   name: '-poll || PollGuy',
+   type: 'PLAYING',
+  },
+ },
+});
+//const client = new Discord.Client();
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
