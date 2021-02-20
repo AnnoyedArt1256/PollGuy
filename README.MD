@@ -12,3 +12,5 @@ git clone https://github.com/AnnoyedArt1256/PollGuy/
 cd PollGuy
 npm install
 ```
+### Preview
+![](https://raw.githubusercontent.com/AnnoyedArt1256/PollGuy/main/demo.png)  
