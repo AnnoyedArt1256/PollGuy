@@ -6,11 +6,5 @@
 Well theres only one feature and that's making polls! just type -poll and type in your poll title in quotation marks and BOOM, a poll is created! 
 ### Commands
 -poll "polltitle"
-## How to install
-```
-git clone https://github.com/AnnoyedArt1256/PollGuy/
-cd PollGuy
-npm install
-```
 ### Preview
 ![](https://raw.githubusercontent.com/AnnoyedArt1256/PollGuy/main/demo.png)  
